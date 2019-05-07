@@ -4,7 +4,14 @@ export default function Layout(props) {
   return (
     <div className="container">
       <Header />
-      {props.children}
+      <div className="child-wrap">
+        {props.children}
+      </div>
+      <style jsx>{`
+        .child-wrap {
+          margin-top: 20px;
+        }
+      `}</style>
       <style jsx global>{`
         html, body, div, span, applet, object, iframe, blockquote,
         a, abbr, acronym, address, big, cite, code,
@@ -43,6 +50,7 @@ export default function Layout(props) {
 
         html, body {
           height: 100%;
+          font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
         }
 
         body {
@@ -76,8 +84,11 @@ export default function Layout(props) {
           list-style: none;
         }
         .container {
-          width: 1020px;
+          width: 980px;
           margin: 0 auto
+        }
+        code {
+          font-size: 14px;
         }
       `}</style>
     </div>

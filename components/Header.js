@@ -1,16 +1,16 @@
 import Link from 'next/link'
+import Icon from './icon'
 
 const Header = () => (
   <div className="header-wrap">
     <div className="title">
-      <img src="" alt=""/>
-      
+      <Icon icon="icon-github" height="30" width="30"></Icon>
     </div>
     <div className="link-wrap">
       <Link href="/">
         <a className="link">Post</a>
       </Link>
-      <Link href="/about">
+      <Link href="/moment">
         <a className="link">Moment</a>
       </Link>
     </div>
@@ -18,7 +18,6 @@ const Header = () => (
       .header-wrap {
         width: 100%;
         display: flex;
-        justify-content: space-between;
         align-items: center;
         height: 60px;
       }

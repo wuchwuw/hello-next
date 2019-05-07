@@ -8381,7 +8381,7 @@ var webpack_hot_middleware_client_1 = __importDefault(__webpack_require__(/*! ./
 // The runtimeChunk can't hot reload itself currently to correct it when adding pages using on-demand-entries
 
 
-__webpack_require__.e(/*! import() */ 0).then(__webpack_require__.t.bind(null, /*! ./noop */ "./node_modules/next/dist/client/noop.js", 7)); // Support EventSource on Internet Explorer 11
+__webpack_require__.e(/*! import() */ 1).then(__webpack_require__.t.bind(null, /*! ./noop */ "./node_modules/next/dist/client/noop.js", 7)); // Support EventSource on Internet Explorer 11
 
 if (!window.EventSource) {
   window.EventSource = event_source_polyfill_1.default;

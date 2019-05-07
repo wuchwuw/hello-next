@@ -19,7 +19,7 @@
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],
-    "/post": [
+    "/moment": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ]
